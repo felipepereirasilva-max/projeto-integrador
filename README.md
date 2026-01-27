@@ -1,6 +1,6 @@
 
 
- Projeto - Web pro
+ Projeto - Second Life Style
 
 Projeto desenvolvido como parte da Semana 1 do curso.
 
