@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #0f4f45;
+  color: #e9f5f1;
+}
+
+/* CONTAINER */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+    display: flex;
+  justify-content: end;
+}
+
+/* HEADER */
+.header {
+  background-color: #0c8a6a;
+  padding: 16px 0;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+}
+
+.nav {
+  display: flex;
+  gap: 24px;
+}
+
+.nav a {
+  color: #0b1f1b;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.search-btn {
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: 1px solid #ffffff;
+  background: transparent;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* HERO */
+.hero {
+  padding: 80px 0;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.subtitle {
+  font-size: 14px;
+  margin-bottom: 16px;
+  opacity: 0.8;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 32px;
+}
+
+.primary-btn {
+  background-color: #1fa37c;
+  color: #0b1f1b;
+  border: none;
+  padding: 14px 32px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+.primary-btn:hover {
+  background-color: #27c193;
+}
+
+.caption {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+/* HERO IMAGE */
+.hero-image {
+  border: 2px solid #2fb8ff;
+  padding: 24px;
+}
+
+.hero-image img {
+  max-width: 100%;
+  display: block;
+}
+
+/* FOOTER */
+.footer {
+  margin-top: 60px;
+  padding: 24px 0;
+  background-color: #ffffff;
+  color: #777;
+  border-radius: 40px 40px 0 0;
+  text-align: center;
+  display: flex;
+  justify-content: end;
+
+}
+
+.social-footer {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  background-color: #ffffff;
+  padding: 16px 40px;
+  border-radius: 40px;
+
+  display: flex;
+  gap: 32px;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.social-footer a {
+  text-decoration: none;
+  color: #7a7a7a;
+  font-weight: 500;
+}
+
+.social-footer a:hover {
+  color: #0c8a6a;
+}
