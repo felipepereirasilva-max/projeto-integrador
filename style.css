@@ -25,7 +25,7 @@ body {
   padding: 16px 0;
 }
 
-.header-content {
+.h-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -36,6 +36,7 @@ body {
   align-items: center;
   gap: 8px;
   font-weight: 600;
+  max-height: 12px;
 }
 
 .nav {
@@ -53,7 +54,7 @@ body {
   text-decoration: underline;
 }
 
-.search-btn {
+.s-btn {
   padding: 8px 16px;
   border-radius: 6px;
   border: 1px solid #ffffff;
@@ -67,14 +68,14 @@ body {
   padding: 80px 0;
 }
 
-.hero-content {
+.h-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 40px;
 }
 
-.hero-text {
+.h-text {
   max-width: 500px;
 }
 
@@ -84,13 +85,13 @@ body {
   opacity: 0.8;
 }
 
-.hero-text h1 {
+.h-text h1 {
   font-size: 48px;
   line-height: 1.2;
   margin-bottom: 32px;
 }
 
-.primary-btn {
+.p-btn {
   background-color: #1fa37c;
   color: #0b1f1b;
   border: none;
@@ -101,22 +102,22 @@ body {
   margin-bottom: 16px;
 }
 
-.primary-btn:hover {
+.p-btn:hover {
   background-color: #27c193;
 }
 
-.caption {
+.cap {
   font-size: 14px;
   opacity: 0.7;
 }
 
 /* HERO IMAGE */
-.hero-image {
+.h-image {
   border: 2px solid #2fb8ff;
   padding: 24px;
 }
 
-.hero-image img {
+.h-image img {
   max-width: 100%;
   display: block;
 }
@@ -134,7 +135,7 @@ body {
 
 }
 
-.social-footer {
+.s-footer {
   position: fixed;
   bottom: 24px;
   left: 50%;
@@ -150,12 +151,12 @@ body {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
 
-.social-footer a {
+.s-footer a {
   text-decoration: none;
   color: #7a7a7a;
   font-weight: 500;
 }
 
-.social-footer a:hover {
+.s-footer a:hover {
   color: #0c8a6a;
 }
