@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos | Second Life Style</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">Second Life Style</div>
+    <nav class="nav">
+        <a href="index.html">Home</a> <a href="#">Sobre</a>
+        <a href="produtos.html" class="active">Produtos</a>
+        <a href="#">Projetos</a>
+        <a href="#">Contato</a>
+    </nav>
+</header>
+
+<div class="container">
+    <aside>
+        <div class="filter-group">
+            <h3>Tamanho</h3>
+            <label class="checkbox-item"><input type="checkbox" class="filter-check" value="P"> P (Pequeno)</label>
+            <label class="checkbox-item"><input type="checkbox" class="filter-check" value="M"> M (Médio)</label>
+            <label class="checkbox-item"><input type="checkbox" class="filter-check" value="G"> G (Grande)</label>
+        </div>
+
+        <div class="filter-group">
+            <h3>Categoria</h3>
+            <label class="checkbox-item"><input type="checkbox" class="filter-check" value="Jaquetas"> Jaquetas</label>
+            <label class="checkbox-item"><input type="checkbox" class="filter-check" value="Camisas"> Camisas</label>
+            <label class="checkbox-item"><input type="checkbox" class="filter-check" value="Calças"> Calças</label>
+        </div>
+
+        <div class="filter-group">
+            <h3>Preço Máximo</h3>
+            <input type="range" min="0" max="300" value="300" id="priceRange">
+            <p>Até R$ <span id="priceValue">300</span></p>
+        </div>
+    </aside>
+
+    <main class="products-grid" id="productsContainer">
+        </main>
+</div>
+
+<script src="script1.js"></script>
+</body>
+</html>
