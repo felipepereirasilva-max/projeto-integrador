@@ -15,7 +15,7 @@ Integrantes do Grupo
 
 - Felipe Silva 
 - Rafael philipe
-- Sérgio arthut
+- Sérgio arthur
 - Vitor gabriel
 
  Link do figma
